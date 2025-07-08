@@ -12,7 +12,7 @@ const renderContent = {
   2: (
     <div>
       <h1 className = 'sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5 w-96 flex-wrap h-32'>
-      Worked with Many companies and Picked up many skills along the way</h1>
+      Worked in Many projects and Picked up many skills along the way</h1>
       <Link 
       to='about'
       className="bg-slate-300 w-40 h-12 rounded-[20px] -my-3 z-10 absolute flex justify-center items-center self-center mx-[10%] 2xl:mx-[9%]">

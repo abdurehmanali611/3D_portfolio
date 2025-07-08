@@ -34,7 +34,7 @@ export default function About() {
       <div className="py-16">
         <h3 className="subhead-text">Work Experience</h3>
         <p className="mt-5 text-slate-500">
-          I&apos;ve worked with all sorts of companies, leveling up my skills teaming up with smart people. Here’s the rundown.
+          I&apos;ve worked with all sorts of projects, leveling up my skills teaming up with smart people. Here’s the rundown.
         </p>
 
         <div className="mt-12 w-full">

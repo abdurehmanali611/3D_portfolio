@@ -1,25 +1,21 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { EITA, logovolaso, vehicle, gym, abdu, teap } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     git,
     github,
     html,
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
+    typescript,
+    nextjs,
     nodejs,
-    pricewise,
     react,
     sass,
-    snapgram,
-    summiz,
+    expo,
     tailwindcss,
-    threads,
+    firebase,
 } from "../assets/icons";
 
 export const skills = [
@@ -55,13 +51,13 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
+        imageUrl: typescript,
+        name: "TypeScript",
         type: "Animation",
     },
     {
-        imageUrl: mui,
-        name: "Material-UI",
+        imageUrl: nextjs,
+        name: "Next.js",
         type: "Frontend",
     },
    
@@ -85,60 +81,62 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    
+    {
+        imageUrl: expo,
+        name: "React Native Expo",
+        type: "Mobile Development",
+    },
+    {
+        imageUrl: firebase,
+        name: "Firebase",
+        type: "Database",
+    }
 ];
 
 export const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        company_name: "Volaso Technologies",
+        icon: logovolaso,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "March 2022 - April 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Next.js Developer",
+        company_name: "EITA",
+        icon: EITA,
+        iconBg: "#b7e4c7",
+        date: "Sep 2024 - Dec 2024",
+        points: [
+            "Developing and maintaining web applications using Next.js and other related technologies.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
         ],
     },
     {
         title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        company_name: "Fleet Management",
+        icon: vehicle,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Feb 2025 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining Mobile applications using React Native expo",
+            "Implementing responsive design and ensuring cross-device compatibility.",
+            "IT IS STILL UNDER DEVELOPMENT TO EVEN INCLUDE AI ON IT."
         ],
     },
     {
         title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        company_name: "Fleet Management",
+        icon: vehicle,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "Feb 2025 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing and maintaining web applications using Next.js and other related technologies.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
 ];
@@ -152,56 +150,63 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/abdurehmanali611',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/abdurehman-ali-592238281/',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: EITA,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'EITA - Ethiopian Islamic Teaching Association',
+        description: 'Developed a web and mobile application that tracks and represents services of the organization.',
+        link: 'https://github.com/abdurehmanali611/EITA.git',
     },
     {
-        iconUrl: threads,
+        iconUrl: vehicle,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Vehicle Request Management App',
+        description: 'Created a Mobile App for the Institutions fleet management enabling users to request vehicles and Getting Approved by Responsibles.',
+        link: 'https://github.com/abdurehmanali611/Internship_vehicle_Request_INSA.git',
     },
     {
-        iconUrl: car,
+        iconUrl: logovolaso,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Volaso Technologies',
+        description: 'Designed and built a website for use as a portfolio for a technology company specially in Driverless Cars.',
+        link: 'https://github.com/abdurehmanali611/volaso_tech.git',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: gym,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Fitness Gym Single Page Website',
+        description: 'Built a complete portfolio for a Gym, allowing users to access services that are given by the Gym.',
+        link: 'https://github.com/abdurehmanali611/fitness_site.git',
     },
     {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
+        iconUrl: abdu,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Personal Site (Portfolio)',
+        description: 'Built a complete portfolio for me, including my prior projects when we were in our first journey.',
+        link: 'https://github.com/abdurehmanali611/personal_site.git',
+    },
+    {
+        iconUrl: teap,
+        theme: 'btn-back-orange',
+        name: 'Teap',
+        description: 'Built a Mobile App for an organization that was intended to work like uber by connecting Technicians to the Householders .',
+        link: 'https://github.com/abdurehmanali611/Tip_Expo_51.git',
+    },
+    {
+        iconUrl: teap,
+        theme: 'btn-back-black',
+        name: 'Study Pal',
+        description: 'Built a Mobile App intended for helping to study hard for their exam and general exams.',
+        link: 'https://github.com/abdurehmanali611/Study_App.git',
     }
 ];
