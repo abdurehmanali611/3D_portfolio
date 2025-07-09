@@ -10,6 +10,7 @@ import EITA from './EITA.png'
 import gym from './gym.webp'
 import abdu from './abdu.jpg'
 import teap from './teap.png'
+import study from './study.jpg'
 
 export {
     hero,
@@ -23,5 +24,6 @@ export {
     EITA,
     gym,
     abdu,
-    teap
+    teap,
+    study
 }

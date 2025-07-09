@@ -1,4 +1,4 @@
-import { EITA, logovolaso, vehicle, gym, abdu, teap } from "../assets/images";
+import { EITA, logovolaso, vehicle, gym, abdu, teap, study } from "../assets/images";
 import {
     contact,
     css,
@@ -203,10 +203,10 @@ export const projects = [
         link: 'https://github.com/abdurehmanali611/Tip_Expo_51.git',
     },
     {
-        iconUrl: teap,
+        iconUrl: study,
         theme: 'btn-back-black',
         name: 'Study Pal',
-        description: 'Built a Mobile App intended for helping to study hard for their exam and general exams.',
+        description: 'Built a Mobile App intended for helping to study hard for their exam and general knowledge.',
         link: 'https://github.com/abdurehmanali611/Study_App.git',
     }
 ];
