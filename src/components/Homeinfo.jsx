@@ -45,7 +45,7 @@ const renderContent = {
       </div>
       <Link
       to='contact'
-      className="bg-slate-300 w-40 h-12 rounded-[20px] -my-1 z-10 absolute flex justify-center items-center self-center mx-[12%]"
+      className="bg-slate-300 w-40 h-12 rounded-[20px] z-10 absolute flex justify-center items-center self-center mx-[12%] my-3"
       >
         Let's Talk
       </Link>

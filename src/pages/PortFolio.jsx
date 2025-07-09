@@ -1,7 +1,6 @@
-import React from 'react'
 import { projects } from '../constants'
 import { Link } from 'react-router-dom'
-import { arrow } from '../assets/icons'
+import { arrow } from '../../public/icons'
 import CTA from '../components/CTA'
 
 const PortFolio = () => {

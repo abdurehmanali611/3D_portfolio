@@ -1,10 +1,10 @@
 import { useAnimations, useGLTF } from '@react-three/drei'
 import React, { useEffect, useRef } from 'react'
 
-import birdScene from '../assets/3d/bird.glb'
+import birdScene from '/3d/bird.glb'
 import { useFrame } from '@react-three/fiber'
 
-const bird = () => {
+const Bird = () => {
 
   const birdref = useRef()
   const {scene, animations} = useGLTF(birdScene)
@@ -38,4 +38,4 @@ const bird = () => {
   )
 }
 
-export default bird
+export default Bird

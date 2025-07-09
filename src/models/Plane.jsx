@@ -1,9 +1,9 @@
 import { useAnimations, useGLTF } from '@react-three/drei'
 import React, { useEffect, useRef } from 'react'
 
-import planeScene from '../assets/3d/plane.glb'
+import planeScene from '/3d/plane.glb'
 
-const plane = ({isRotating, ...props}) => {
+const Plane = ({isRotating, ...props}) => {
 
   const ref = useRef()
   const {scene, animations} = useGLTF(planeScene)
@@ -23,4 +23,4 @@ const plane = ({isRotating, ...props}) => {
   )
 }
 
-export default plane
+export default Plane

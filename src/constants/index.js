@@ -1,4 +1,4 @@
-import { EITA, logovolaso, vehicle, gym, abdu, teap, study } from "../assets/images";
+import { EITA, logovolaso, vehicle, gym, abdu, teap, study } from "../../public/images";
 import {
     contact,
     css,
@@ -16,7 +16,7 @@ import {
     expo,
     tailwindcss,
     firebase,
-} from "../assets/icons";
+} from "../../public/icons";
 
 export const skills = [
     {
